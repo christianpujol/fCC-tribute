@@ -11,5 +11,5 @@
  - [X] You can get feedback on your project by sharing it with your friends on Facebook.
 
 ## 
- * code source: https://github.com/pujolchr/fCC-tribute
- * live: https://pujolchr.github.io/fCC-tribute/
+ * code source: https://github.com/christianpujol/fCC-tribute
+ * live: https://fridtjof.glitch.me/
