@@ -6,7 +6,7 @@
   <meta name="author" content="Christian Pujol">
   <link rel="icon" type="image/jpeg" href="/img/nagada.jpg">
   <meta name="description" content="A tribute webpage to Fridtjof Nansen">
-  <title>naga.no | fCC | Fridtjof Nansen</title>
+  <title> fCC | tibute | Fridtjof Nansen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -19,6 +19,8 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- include site nav -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
 
   <!-- page stylesheet -->
   <link rel="stylesheet" href="style.css">
@@ -27,10 +29,13 @@
 <body>
   <div class="container-fluid" id="main">
     <div class="row well rounded">
-      <div class="col-md-4" id="portrait"><img src="Fridtjof_Nansen_Portrait.jpg" class="img-circle img-responsive" alt="Fridtjof Nansen's portrait"></div>
+      <div class="col-md-4" id="img-div">
+        <img id="image" src="Fridtjof_Nansen_Portrait.jpg" class="img-circle img-responsive" alt="Fridtjof Nansen's portrait">
+        <p style="display:none;" id="img-caption">Fridtjof Nansen's portrait"</p>
+      </div>
       <div class="col-md-8">
         <div class="rounded bg-info">
-          <h1 class="text-center">Fridtjof Nansen
+          <h1 id="title" class="text-center">Fridtjof Nansen
           <small>(1861–1930)</small></h1>
           <blockquote cite="https://www.nobelprize.org/nobel_prizes/peace/laureates/1922/nansen-lecture.html" class="blockquote-reverse">
             "No future, however, can be built on despair, distrust, hatred, and envy."<br>
@@ -55,7 +60,7 @@
           </footer>
         </blockquote>
       </div>
-      <div class="rounded bg-info">
+      <div id="tribute-info" class="rounded bg-info ">
         <ul class="list-unstyled">
           <li><strong>1881</strong> Began to study zoology at the University
           </li>
@@ -118,7 +123,7 @@
           entry</a> about Fridtjof Nansen.
         </li>
         <li>
-          <a href="http://www.badassoftheweek.com/nansen.html">Badass of
+          <a id="tribute-link" target="_blank" href="http://www.badassoftheweek.com/nansen.html">Badass of
           the week: Fridtjof Nansen.</a>
         </li>
         <li>The Nobel Peace Prize 1922:
